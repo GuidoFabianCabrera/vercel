@@ -5,11 +5,8 @@ const app = express()
 const port = process.env.PORT || 3000
 
 app.get('/',async (req, res) => {
-  
   const test = await animeOnBroadcast()
-
   console.log(test)
-
   res.send(test)
 })
 
