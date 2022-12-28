@@ -10,7 +10,7 @@ app.get('/',async (req, res) => {
 
   console.log(test)
 
-  res.send('Hello World!')
+  res.send(test)
 })
 
 app.listen(port, () => {
